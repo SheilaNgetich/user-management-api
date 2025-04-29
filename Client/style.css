@@ -1,0 +1,88 @@
+/* Layout */
+main {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(128, 90, 213, 0.2); /* soft purple shadow */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Table Layout */
+  table {
+    margin: 50px auto;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #faf5ff; 
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Table Borders */
+  table, th, td {
+    border: 1px solid #805ad5; 
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    color: #2e2e2e;
+  }
+  
+  /* Table Header */
+  thead {
+    background-color: #e9d8fd; 
+    color: #4b0082;
+  }
+  
+  /* Row Hover Effect */
+  tr:hover {
+    background-color: #eee8fc;
+  }
+  
+  /* Form Inputs */
+  input[type="text"] {
+    padding: 10px;
+    border: 2px solid #d6bcfa;
+    border-radius: 8px;
+    width: 60%;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #805ad5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 5px;
+  }
+  
+  button:hover {
+    background-color: #6b46c1;
+  }
+  
+  /* Update section */
+  #update-row {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f4ff;
+    border: 2px dashed #d6bcfa;
+    border-radius: 12px;
+  }
+  
+  /* No data message */
+  .nodata {
+    text-align: center;
+    color: #999;
+    font-style: italic;
+  }
+  
